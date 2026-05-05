@@ -40,44 +40,6 @@ CPE551FinalProject/
 
 ---
 
-## How to Run
-
-### Requirements
-- Python 3.12, 3.13, or 3.14
-- Jupyter Notebook or VS Code with the Jupyter extension
-
-### Steps
-1. Clone the repository:
-```
-git clone https://github.com/kunalantala/CPE551FinalProject.git
-cd CPE551FinalProject
-```
-
-2. Install dependencies:
-```
-pip install yfinance pandas matplotlib pytest
-```
-
-3. Open `main.ipynb` in VS Code or Jupyter and run all cells top to bottom.
-
-4. To run the Pytest test cases:
-```
-pytest test_project.py
-```
-
-### Notes
-- An internet connection is required for `fetch_data()` to pull live prices from Yahoo Finance
-- The notebook saves a `portfolio.csv` file and a `portfolio_chart.png` to the project folder when run
-
----
-
-## Main Contributions
-
-**Alexander Bonifacio**
-- Implemented the `Stock` class with private attributes, getters, and operator overloads (`__str__`, `__eq__`)
-- Implemented the `Portfolio` class with composition structure, list comprehension, and total value tracking (`__str__`, `__len__`)
-- Implemented `data_handler.py` with live price fetching via yfinance, CSV save/load using Pandas, and price generator
-- Implemented `report.py` with portfolio summary printing and Matplotlib bar chart visualization
 - Wrote Pytest test cases for `total_value()` and `gain_loss()` using NVDA and AMD
 
 **Kunal Antala**
