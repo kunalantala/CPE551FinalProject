@@ -34,4 +34,4 @@ def portfolio_plot(portfolio):
     plt.ylabel("Value ($)")
     plt.tight_layout()
     plt.savefig("portfolio_chart.png") # Saves the chart as a png file
-    plt.show()
+    plt.show() 
