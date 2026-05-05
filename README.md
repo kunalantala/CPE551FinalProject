@@ -69,9 +69,18 @@ pytest test_project.py
 - The notebook saves a `portfolio.csv` file and a `portfolio_chart.png` to the project folder when run
 
 ---
+## Main Contributions
+
+**Alexander Bonifacio**
+- Implemented the `Stock` class with private attributes, getters, and operator overloads (`__str__`, `__eq__`)
+- Implemented the `Portfolio` class with composition structure, list comprehension, and total value tracking (`__str__`, `__len__`)
+- Implemented `data_handler.py` with live price fetching via yfinance, CSV save/load using Pandas, and price generator
+- Implemented `report.py` with portfolio summary printing and Matplotlib bar chart visualization
 - Wrote Pytest test cases for `total_value()` and `gain_loss()` using NVDA and AMD
 
 **Kunal Antala**
 - Set up and managed the GitHub repository
+- Implemented `main.ipynb` connecting all modules with the full portfolio workflow
+- Wrote project documentation and README
 - Implemented `main.ipynb` connecting all modules with the full portfolio workflow
 - Wrote project documentation and README
