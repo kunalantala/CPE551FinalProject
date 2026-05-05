@@ -51,4 +51,4 @@ def load_portfolio(portfolio, filename="portfolio.csv"):
 def price_gen(portfolio):
     """Generator that provides each stock's symbol and current price one at a time."""
     for s in portfolio.get_stocks():
-        yield s.get_symbol(), s.get_current_price() # Pauses and gives back one stock at a time
+        yield s.get_symbol(), s.get_current_price() # Pauses and gives back one stock at a time 
