@@ -22,4 +22,4 @@ def test_gain_loss():
     """Verifies that gain_loss() correctly calculates profit based on current vs purchase price."""
     s = Stock("AMD", 10, 120.0)
     s.set_current_price(175.0)
-    assert s.gain_loss() == 550.0 # 10 shares gained $55 each, so total should be $550
+    assert s.gain_loss() == 550.0 # 10 shares gained $55 each, so total should be $550 
