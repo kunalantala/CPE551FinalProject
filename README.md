@@ -66,5 +66,6 @@ Install all required libraries before running:
 
 **Kunal Antala**
 * Set up and managed the GitHub repository
+* Assisted Alexander with the development of the project modules 
 * Implemented `main.ipynb` connecting all modules with the full portfolio workflow
 * Wrote project documentation and README
