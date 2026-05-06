@@ -63,7 +63,7 @@ class Portfolio:
 
 if __name__ == "__main__":
     p = Portfolio("Alex & Kunal Portfolio")
-    s1 = Stock("NVDA", 5, 800.0)
+    s1 = Stock("NVDA", 5, 500.0)
     s1.set_current_price(900.0)
     p.add_stock(s1)
     print(p) 
